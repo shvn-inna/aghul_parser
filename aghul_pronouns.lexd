@@ -1,0 +1,29 @@
+PATTERNS
+PronStem PronCase
+
+
+LEXICON PronStem
+зун<prn><p1><sg>:з{X} #я
+вун<prn><p2><sg>:в{X} #ты
+хъин<prn><p1><pl><inc>:хъ #мы инк
+чин<prn><p1><pl><inc>:чи #мы экс
+чун<prn><p2><pl><inc>:чу #вы
+
+LEXICON PronCase
+<nom>:н
+<erg>:н
+<gen>:
+<dat>:ас
+<ins>:лди
+<psl1>:фай
+<psl2>:хъай
+<psl3>:гIай
+
+<loc1>:ф
+<loc2>:гь
+<loc3>:хь
+<loc4>:кк
+<loc5>:к
+<loc6>:'
+<loc7>:л
+<loc8>:гI
