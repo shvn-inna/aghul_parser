@@ -1,0 +1,88 @@
+PATTERNS
+NumStem
+NumStem Subst
+NumStem NumCase
+NumStem NumNumber NumCase
+Ten TenCase
+Ten NumNumber TenCase
+( NumStem | Ten ) OrdSuffix
+( NumStem | Ten ) AdvSuffix
+( NumStem | Ten ) Distributive
+IndefNum
+
+LEXICON NumStem
+са #1
+lу #2
+хьибу #3
+якьу #4
+гlуфу #5
+ерхьи #6
+ери #7
+муй #8
+ярчlу #9
+ицlу #10
+къад #20
+
+LEXICON Subst
+<s>:д
+
+LEXICON Ten
+хьимцlур #30
+ягьцlур #40
+гlафцlур #50
+яхьцlур #60
+ярцlур #70
+муйцlур #80
+ярчlзур #90
+
+LEXICON NumCase
+<nom>:
+<erg>:и
+<gen>:ин
+<dat>:ис
+<ins>:илди
+<psl1>:ифай
+<psl2>:ихъай
+<psl3>:игlай
+
+LEXICON TenCase
+<nom>:
+<erg>:а
+<gen>:ан
+<dat>:ас
+<ins>:алди
+<psl1>:афай
+<psl2>:ахъай
+<psl3>:агlай
+
+LEXICON IndefNum
+паратар #многие
+чlукьтар #меньшие
+сакьадартар #некоторые
+саlудар #немногие
+сахьимунасад #несколько
+
+LEXICON NumNumber
+<sg>:
+<pl>:ар
+
+LEXICON OrdSuffix
+<ord>:пуф
+
+LEXICON OrdCase
+<nom>:
+<erg>:ти
+<gen>:тин
+<dat>:тис
+<ins>:тилди
+<comm>:тифай
+<comm>:тихъай
+<comm>:тигlай
+
+
+LEXICON AdvSuffix
+<adv>:галай
+
+LEXICON Distributive
+<distr>:
+<distr>:ди

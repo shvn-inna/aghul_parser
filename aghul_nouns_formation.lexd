@@ -1,0 +1,46 @@
+PATTERNS
+Noun
+Noun And
+(Noun Ergative) > (Case | (Locative Dest)) 
+Noun Plural > [:и] (Case | (Locative Dest))
+
+LEXICON Plural
+<pl>:ар #plur on cons
+<pl>:вур
+
+#Classes (эргатив, косвенные основы)
+LEXICON Ergative
+<erg>:а
+<erg>:йи
+<erg>:уни
+<erg>:и
+<erg>:ди
+
+LEXICON And
+<=и>:на
+<=и>:ра
+
+LEXICON Case
+<gen>:н
+<dat>:с
+<instr>:лди
+<comit>:фай
+<comit>:хъай
+<comit>:гlаьй
+
+LEXICON Locative
+<apud>:ф
+<ante>:гь
+<post>:хъ
+<sub>:кк
+<cont>:к
+<in>:ъ
+<super>:л
+<inter>:гl
+
+
+LEXICON Dest
+<ess>:
+<elat>:ас
+<elat>:ес
+<lat>:ди

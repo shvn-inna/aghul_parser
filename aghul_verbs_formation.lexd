@@ -1,0 +1,27 @@
+
+PATTERNS
+VerbStem
+Neg? VerbStem CheckInf? Participle
+Neg? VerbStem > ((Inf1 > (StemPerf | CheckInf| (CheckInf StemPerf))) Inf2)
+
+LEXICON Inf2
+<inf>:c
+
+LEXICON Inf1
+<inf>:а
+
+LEXICON Neg
+<neg>:д
+<neg>:да
+
+LEXICON StemPerf
+<perf>:гуна
+
+LEXICON CheckInf
+<checkadv>:чукьа
+
+LEXICON Participle
+<ipf><pt><prs>:аф
+<ipf><pt><prf>:уф
+<ipf><pt><hab>:аеф
+<ipf><pt><aor>:унаеф

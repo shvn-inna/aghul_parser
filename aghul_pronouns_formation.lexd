@@ -1,0 +1,38 @@
+
+PATTERNS
+PronStem[0] [:у] PronCase1
+PronStem[1] [:и] PronCase1
+PronStem[2] [:и] PronCase1
+PronStem [:е] PronCase2
+PronStem[-1] [:а] PronCase3
+PronStem[1] [:е] PronCase3
+
+LEXICON PronStem
+зун<prn><p1><sg>:з[0] #я
+вун<prn><p2><sg>:в[0] #ты
+хъин<prn><p1><pl><inc>:хъ[1] #мы инк
+чин<prn><p1><pl><excl>:ч[2] #мы экс
+чун<prn><p3><pl>:ч[0] #вы
+
+LEXICON PronCase1
+<nom>:н
+<erg>:н
+
+LEXICON PronCase2
+<gen>:
+
+LEXICON PronCase3
+<dat>:с
+<ins>:лди
+<psl1>:фай
+<psl2>:хъай
+<psl3>:гIай
+
+<apud>:ф
+<ante>:гь
+<post>:хъ
+<sub>:кк
+<cont>:к
+<in>:ъ
+<super>:л
+<inter>:гl
